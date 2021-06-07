@@ -22,30 +22,31 @@
             $('.first').toggleClass("none");
             $('.fourth').toggleClass("none");
     	});
+      $('.header_mobile').click(function(){
+      // $('.burger').css("display","none");
+        $('.menu_mobile').toggleClass('grid');
+        $('.header_mobile_img').toggleClass('none');
+        $('.header_mobile_img2').toggleClass('block');
+      });
     });
     </script>
     <header class="header">
-              <div class="wrapper">
-                <input type="checkbox" class="check-menu"id="check-menu" name="" value="">
-                <img src="img/x2.png" class="x2" alt="">
-                <div class="black">
-                <label for="check-menu">
-                <div class="burger-line first">  </div>
-                <div class="burger-line second">  </div>
-                <div class="burger-line third">  </div>
-                <div class="burger-line fourth">  </div>
-                  </div>
-                </label>
-                <nav class="main-menu">
-                  <a href="index.html">ГЛАВНАЯ</a>
-                  <a href="levels.html">ПРОСТРАНСТВО</a>
-                  <a href="events.html">СОБЫТИЯ</a>
-                  <a href="test.html">ПОДБОР БЛЮДА</a>
-                  <a href="shop.html">МАГАЗИН</a>
-                  <a href="contacts.html">КОНТАКТЫ</a>
-                </nav>
-              </div>
+
     </header>
+    <div class="headerr">
+    <div class="header_mobile">
+      <img src="img/header.png" class="header_mobile_img"alt="">
+      <img src="img/x2.png" class="header_mobile_img2"alt="">
+    </div>
+    <div class="menu_mobile">
+      <a href="index.html" class="padding"><span class="menu_links">ГЛАВНАЯ</span></a>
+      <a href="menu2.html" class="padding"><span class="menu_links">МЕНЮ</span></a>
+      <a href="levels.html" class="padding"><span class="menu_links" >ПРОСТРАНСТВО</span></a>
+      <a href="events.html" class="padding"><span class="menu_links">СОБЫТИЯ</span></a>
+      <a href="shop.html" class="padding"><span class="menu_links">МАГАЗИН</span></a>
+      <a href="contacts.html" class="padding"><span class="menu_links">КОНТАКТЫ</span></a>
+    </div>
+      </div>
     <div class="all">
   <div class="body_html">
 <div class="container_top">
