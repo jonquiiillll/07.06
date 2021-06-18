@@ -7,15 +7,18 @@ body {
   padding: 0;
 }
 .headerr {
-  display: none;
+  display: none !important;
 }
 @media (max-width: 800px) {
   .headerr {
     display: block !important;
   }
-    header {
-      display: none !important;
-    }
+  .naming_p {
+    margin-top: -113px;
+  }
+  .minitext {
+    margin-top: -15px;
+  }
     .box_1 {
         display: none !important;
 
@@ -531,7 +534,8 @@ li {
  }
  .minitext {
    font-size: 21px;
-   margin-top: 88px;
+margin-top: -15px;
+
  }
  .wrapper {
    display: contents;

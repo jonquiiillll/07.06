@@ -3,6 +3,19 @@
   background-color: black;
   font-family: "light";
 }
+.opacity {
+  opacity: .5;
+}
+.container_events {
+  margin-bottom: 40px !important;
+}
+span {
+  transition: opacity .2s;
+}
+span:hover {
+  opacity: 0.6;
+  transition: opacity .2s;
+}
 footer {
   color: white;
   font-size: 36px;
@@ -401,7 +414,7 @@ padding-right: 27px;
  }
  body {
    background-color: black;
-   font-family: Suisse Intl;
+   font-family: "light";
  }
  .box_for_features {
    display: flex;
